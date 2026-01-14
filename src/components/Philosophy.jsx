@@ -1,8 +1,48 @@
 export default function Philosophy() {
   return (
-    <section id="philosophy" className="section container">
-      <h2 className="reveal">Structural Poetry</h2>
-      <img src="https://images.unsplash.com/photo-1497366216548-37526070297c" style={{width:"100%"}} />
+    <section id="philosophy" className="section philosophy">
+      <div className="container philosophy-grid">
+        
+        {/* Left Image */}
+        <div className="reveal">
+          <div className="philo-image-box">
+            <img
+              src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200"
+              alt="Studio Interior"
+            />
+          </div>
+        </div>
+
+        {/* Right Content */}
+        <div className="reveal">
+          <span className="philo-subtitle bronze-glow">Philosophy</span>
+
+          <h2 className="brand-font philo-title">
+            The Art of <br />
+            <span className="italic">Structural Poetry</span>
+          </h2>
+
+          <p className="philo-quote">
+            "Architecture is the learned game, correct and magnificent, of forms assembled in the light."
+          </p>
+
+          <div className="philo-list">
+            <div className="philo-item">
+              <span>01 — Form & Void</span>
+              <span>+</span>
+            </div>
+            <div className="philo-item">
+              <span>02 — Material Truth</span>
+              <span>+</span>
+            </div>
+            <div className="philo-item">
+              <span>03 — Human Scale</span>
+              <span>+</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </section>
   );
 }
