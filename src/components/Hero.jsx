@@ -1,8 +1,8 @@
 export default function Hero() {
   return (
-    <header className="hero section">
-      <div className="container">
-        <p className="subtitle bronze-glow reveal">Atelier of Modern Living</p>
+    <header className="hero">
+      <div className="hero-inner">
+        <p className="subtitle bronze-glow reveal">ATELIER OF MODERN LIVING</p>
 
         <h1 className="hero-title reveal">
           D'MESHES<span className="bronze-glow italic">.</span>
@@ -10,12 +10,13 @@ export default function Hero() {
 
         <div className="hero-bottom reveal">
           <p className="hero-text">
-            Weave together the <span className="white">tangible</span> and the{" "}
-            <span className="white">atmospheric</span>. Bespoke architecture for the discerning visionary.
+            Weave together the tangible and the atmospheric.
+            <br />
+            Bespoke architecture for the discerning visionary.
           </p>
 
           <a href="#work" className="hero-btn">
-            Explore Commissions →
+            EXPLORE COMMISSIONS →
           </a>
         </div>
       </div>
