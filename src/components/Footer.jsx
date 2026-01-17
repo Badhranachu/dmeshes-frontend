@@ -13,8 +13,8 @@ export default function Footer() {
         <div className="footer-grid reveal">
           <div>
             <h4>Collaborate</h4>
-            <p className="footer-main">studio@dmeshes.com</p>
-            <p className="footer-main">+44 20 7946 0123</p>
+            <p className="footer-main">dmeshesdesigncrew@gmail.com</p>
+            <p className="footer-main">+91 9744558880</p>
           </div>
 
           <div>
@@ -26,8 +26,8 @@ export default function Footer() {
           <div>
             <h4>Presence</h4>
             <div className="footer-links">
-              <a href="#">Instagram</a>
-              <a href="#">LinkedIn</a>
+              <a href="https://www.instagram.com/d_meshes/">Instagram</a>
+              <a href="https://www.facebook.com/dmeshesdesigncrew">Facebook</a>
             </div>
           </div>
         </div>
@@ -35,7 +35,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="footer-bottom">
           <p>© 2026 D'MESHES Architectural Studio.</p>
-          <p className="italic">Est. London / Tokyo / Berlin</p>
+          <p className="italic">Cochin | Dubai</p>
         </div>
 
       </div>
