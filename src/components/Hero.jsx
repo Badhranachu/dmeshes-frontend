@@ -10,12 +10,13 @@ export default function Hero() {
         <h1
   className="hero-title reveal"
   style={{
-    fontFamily: "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif",
+    fontFamily: "'Anton', sans-serif",
     letterSpacing: "0.01em"
   }}
 >
   D'MESHES<span className="bronze-glow italic">.</span>
 </h1>
+
   
 
 
