@@ -7,7 +7,7 @@ export default function Philosophy() {
         <div className="reveal">
           <div className="philo-image-box">
             <img
-              src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200"
+              src="/images/image1.jpg"
               alt="Studio Interior"
             />
           </div>

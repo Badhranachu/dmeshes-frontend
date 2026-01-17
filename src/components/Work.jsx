@@ -20,7 +20,7 @@ export default function Work() {
           <div className="project-card reveal">
             <div className="image-box">
               <img
-                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200"
+                src="/images/image9.jpg"
                 alt="Modern Skyscraper"
               />
               <div className="image-overlay"></div>
@@ -35,7 +35,7 @@ export default function Work() {
           <div className="project-card reveal offset">
             <div className="image-box">
               <img
-                src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1200"
+                src="/images/image2.jpg"
                 alt="Luxury Villa"
               />
               <div className="image-overlay"></div>
@@ -47,6 +47,111 @@ export default function Work() {
           </div>
 
         </div>
+
+        <div className="grid-2 work-grid">
+          
+          {/* Project 1 */}
+          <div className="project-card reveal">
+            <div className="image-box">
+              <img
+                src="/images/image3.jpg"
+                alt="Modern Skyscraper"
+              />
+              <div className="image-overlay"></div>
+            </div>
+
+            <span className="tag bronze-glow">01 — Concrete & Glass</span>
+            <h3 className="brand-font">The Monolith</h3>
+            <p className="location">Berlin / Residential</p>
+          </div>
+
+          {/* Project 2 */}
+          <div className="project-card reveal offset">
+            <div className="image-box">
+              <img
+                src="/images/image4.jpg"
+                alt="Luxury Villa"
+              />
+              <div className="image-overlay"></div>
+            </div>
+
+            <span className="tag bronze-glow">02 — Natural Elements</span>
+            <h3 className="brand-font">Void House</h3>
+            <p className="location">Kyoto / Villa</p>
+          </div>
+
+        </div>
+
+        <div className="grid-2 work-grid">
+          
+          {/* Project 1 */}
+          <div className="project-card reveal">
+            <div className="image-box">
+              <img
+                src="/images/image5.jpg"
+                alt="Modern Skyscraper"
+              />
+              <div className="image-overlay"></div>
+            </div>
+
+            <span className="tag bronze-glow">01 — Concrete & Glass</span>
+            <h3 className="brand-font">The Monolith</h3>
+            <p className="location">Berlin / Residential</p>
+          </div>
+
+          {/* Project 2 */}
+          <div className="project-card reveal offset">
+            <div className="image-box">
+              <img
+                src="/images/image6.jpg"
+                alt="Luxury Villa"
+              />
+              <div className="image-overlay"></div>
+            </div>
+
+            <span className="tag bronze-glow">02 — Natural Elements</span>
+            <h3 className="brand-font">Void House</h3>
+            <p className="location">Kyoto / Villa</p>
+          </div>
+
+        </div>
+
+
+        <div className="grid-2 work-grid">
+          
+          {/* Project 1 */}
+          <div className="project-card reveal">
+            <div className="image-box">
+              <img
+                src="/images/image7.jpg"
+                alt="Modern Skyscraper"
+              />
+              <div className="image-overlay"></div>
+            </div>
+
+            <span className="tag bronze-glow">01 — Concrete & Glass</span>
+            <h3 className="brand-font">The Monolith</h3>
+            <p className="location">Berlin / Residential</p>
+          </div>
+
+          {/* Project 2 */}
+          <div className="project-card reveal offset">
+            <div className="image-box">
+              <img
+                src="/images/image8.jpg"
+                alt="Luxury Villa"
+              />
+              <div className="image-overlay"></div>
+            </div>
+
+            <span className="tag bronze-glow">02 — Natural Elements</span>
+            <h3 className="brand-font">Void House</h3>
+            <p className="location">Kyoto / Villa</p>
+          </div>
+
+        </div>
+
+
       </div>
     </section>
   );
