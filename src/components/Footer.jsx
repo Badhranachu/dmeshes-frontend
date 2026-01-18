@@ -18,9 +18,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4>Headquarters</h4>
-            <p>London, UK</p>
-            <p className="muted">12 Bruton Place, Mayfair</p>
+            <h4>Offices</h4>
+            <p>Cochin, India</p>
+            <p className="muted">Dubai, UAE</p>
           </div>
 
           <div>

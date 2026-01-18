@@ -29,15 +29,15 @@ export default function Philosophy() {
           <div className="philo-list">
             <div className="philo-item">
               <span>01 — Form & Void</span>
-              <span>+</span>
+              {/* <span>+</span> */}
             </div>
             <div className="philo-item">
               <span>02 — Material Truth</span>
-              <span>+</span>
+              {/* <span>+</span> */}
             </div>
             <div className="philo-item">
               <span>03 — Human Scale</span>
-              <span>+</span>
+              {/* <span>+</span> */}
             </div>
           </div>
         </div>

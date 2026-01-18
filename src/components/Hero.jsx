@@ -3,7 +3,7 @@ export default function Hero() {
     <header className="hero">
       <div className="hero-inner">
         {/* <p className="subtitle bronze-glow reveal">ATELIER OF MODERN LIVING</p> */}
-        <p className="subtitle bronze-glow reveal">12+ YEARS EXCELLENCE</p>
+        <p className="subtitle bronze-glow reveal" style={{marginLeft:"7px"}}>12+ YEARS EXCELLENCE</p>
 
         
 
