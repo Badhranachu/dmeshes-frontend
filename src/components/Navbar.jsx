@@ -23,11 +23,12 @@ export default function Navbar() {
     <nav className={`fixed-nav ${hidden ? "nav-hide" : ""}`}>
       <div className="container flex justify-between items-center">
         <div
-          className="brand-font logo"
-          style={{ fontFamily: "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" }}
-        >
-          D'MESHES
-        </div>
+  className="brand-font logo"
+  style={{ fontFamily: "'Anton', sans-serif" }}
+>
+  D'MESHES
+</div>
+
 
         <div className="nav-links">
           <a href="#work" className="nav-link">Work</a>
