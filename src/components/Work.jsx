@@ -88,7 +88,7 @@ export default function Work() {
           <div className="project-card reveal">
             <div className="image-box">
               <img
-                src="/images/image5.jpg"
+                src="/images/image1.jpg"
                 alt="Modern Skyscraper"
               />
               <div className="image-overlay"></div>
@@ -163,7 +163,7 @@ export default function Work() {
       }}
     >
       <img
-        src="/images/image6.jpg"
+        src="/images/image5.jpg"
         alt="Luxury Villa"
         style={{
           width: "100%",

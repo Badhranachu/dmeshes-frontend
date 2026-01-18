@@ -1,15 +1,36 @@
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
+import * as THREE from "three";
+
+function Sphere360() {
+  const texture = new THREE.TextureLoader().load("/images/image6.jpg");
+
+  return (
+    <mesh>
+      <sphereGeometry args={[500, 64, 64]} />
+      <meshBasicMaterial map={texture} side={THREE.BackSide} />
+    </mesh>
+  );
+}
+
 export default function Philosophy() {
   return (
     <section id="philosophy" className="section philosophy">
       <div className="container philosophy-grid">
-        
-        {/* Left Image */}
+
+        {/* Left 360 Image */}
         <div className="reveal">
           <div className="philo-image-box">
-            <img
-              src="/images/image1.jpg"
-              alt="Studio Interior"
-            />
+            <Canvas camera={{ position: [10, 0, 0.1] }}>
+  <Sphere360 />
+  <OrbitControls
+    enableZoom
+    enablePan={false}
+    minDistance={0.01}
+    maxDistance={200}
+  />
+</Canvas>
+
           </div>
         </div>
 
@@ -27,18 +48,9 @@ export default function Philosophy() {
           </p>
 
           <div className="philo-list">
-            <div className="philo-item">
-              <span>01 — Form & Void</span>
-              {/* <span>+</span> */}
-            </div>
-            <div className="philo-item">
-              <span>02 — Material Truth</span>
-              {/* <span>+</span> */}
-            </div>
-            <div className="philo-item">
-              <span>03 — Human Scale</span>
-              {/* <span>+</span> */}
-            </div>
+            <div className="philo-item"><span>01 — Form & Void</span></div>
+            <div className="philo-item"><span>02 — Material Truth</span></div>
+            <div className="philo-item"><span>03 — Human Scale</span></div>
           </div>
         </div>
 
