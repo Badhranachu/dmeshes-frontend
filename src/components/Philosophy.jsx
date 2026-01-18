@@ -17,22 +17,28 @@ export default function Philosophy() {
   return (
     <section id="philosophy" className="section philosophy">
       <div className="container philosophy-grid">
+        
+        
 
         {/* Left 360 Image */}
         <div className="reveal">
-          <div className="philo-image-box">
-            <Canvas camera={{ position: [10, 0, 0.1] }}>
-  <Sphere360 />
-  <OrbitControls
-    enableZoom
-    enablePan={false}
-    minDistance={0.01}
-    maxDistance={200}
-  />
-</Canvas>
 
-          </div>
-        </div>
+  <span className="philo-subtitle bronze-glow">Scroll to explore the 360° view.</span>
+
+  <div className="philo-image-box sphere-holder">
+    <Canvas camera={{ position: [10, 0, 0.1] }}>
+      <Sphere360 />
+      <OrbitControls
+        enableZoom
+        enablePan={false}
+        minDistance={0.01}
+        maxDistance={200}
+      />
+    </Canvas>
+  </div>
+
+</div>
+
 
         {/* Right Content */}
         <div className="reveal">
