@@ -13,8 +13,25 @@ export default function Footer() {
         <div className="footer-grid reveal">
           <div>
             <h4>Collaborate</h4>
-            <p className="footer-main">dmeshesdesigncrew@gmail.com</p>
-            <p className="footer-main">+91 9744558880</p>
+            <p className="footer-main">
+  <a
+    href="mailto:dmeshesdesigncrew@gmail.com"
+    style={{ color: "inherit", textDecoration: "none", cursor: "pointer" }}
+  >
+    dmeshesdesigncrew@gmail.com
+  </a>
+</p>
+
+<p className="footer-main">
+  <a
+    href="tel:+919744558880"
+    style={{ color: "inherit", textDecoration: "none", cursor: "pointer" }}
+  >
+    +91 9744558880
+  </a>
+</p>
+
+
           </div>
 
           <div>
@@ -26,9 +43,23 @@ export default function Footer() {
           <div>
             <h4>Presence</h4>
             <div className="footer-links">
-              <a href="https://www.instagram.com/d_meshes/">Instagram</a>
-              <a href="https://www.facebook.com/dmeshesdesigncrew">Facebook</a>
-            </div>
+  <a href="https://www.instagram.com/d_meshes/" target="_blank" style={{display:"flex",alignItems:"center",gap:"8px"}}>
+    <i className="fab fa-instagram"></i> Instagram
+  </a>
+
+  <a href="https://www.facebook.com/dmeshesdesigncrew" target="_blank" style={{display:"flex",alignItems:"center",gap:"8px"}}>
+    <i className="fab fa-facebook"></i> Facebook
+  </a>
+
+  <a
+    href="https://wa.me/919744558880?text=Hello%20D'Meshes,%20I%20am%20interested%20in%20your%20design%20services.%20Could%20you%20please%20tell%20me%20more%20about%20your%20offerings%20and%20the%20process?"
+    target="_blank"
+    style={{display:"flex",alignItems:"center",gap:"8px"}}
+  >
+    <i className="fab fa-whatsapp"></i> WhatsApp
+  </a>
+</div>
+
           </div>
         </div>
 

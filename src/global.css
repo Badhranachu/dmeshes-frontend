@@ -661,7 +661,6 @@ h1, h2, .brand-font {
 @media (max-width: 600px) {
   .hero-inner {
     padding: 0 16px;
-    text-align: center;
   }
 
   .hero-title {
@@ -1033,6 +1032,7 @@ h1, h2, .brand-font {
   /* Keep same 4:5 aspect ratio as desktop */
   .image-box {
     aspect-ratio: 4 / 5;
+    border-radius: 10px;
   }
 
   .image-box img {
@@ -1075,3 +1075,14 @@ h1, h2, .brand-font {
 }
 
 
+@media (max-width: 600px) {
+  .footer-links {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-links a {
+    justify-content: center;
+  }
+}

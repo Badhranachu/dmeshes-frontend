@@ -27,14 +27,17 @@ export default function Philosophy() {
 
   <div className="philo-image-box sphere-holder">
     <Canvas camera={{ position: [10, 0, 0.1] }}>
-      <Sphere360 />
-      <OrbitControls
-        enableZoom
-        enablePan={false}
-        minDistance={0.01}
-        maxDistance={200}
-      />
-    </Canvas>
+  <Sphere360 />
+  <OrbitControls
+    autoRotate
+    autoRotateSpeed={0.5}   // adjust speed
+    enableZoom
+    enablePan={false}
+    minDistance={0.01}
+    maxDistance={200}
+  />
+</Canvas>
+
   </div>
 
 </div>

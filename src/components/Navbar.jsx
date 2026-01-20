@@ -26,7 +26,7 @@ export default function Navbar() {
   className="brand-font logo"
   style={{ fontFamily: "'Anton', sans-serif" }}
 >
-  D'MESHES
+  D'MESHES<span className="bronze-glow italic">.</span>
 </div>
 
 
