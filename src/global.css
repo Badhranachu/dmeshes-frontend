@@ -25,6 +25,9 @@ h1, h2, .brand-font {
   font-weight: 400;
 }
 
+.brand-font1{
+  font-family: 'Playfair Display', serif;
+}
 .philo-title {
   font-weight: 400;
   letter-spacing: -0.02em;
