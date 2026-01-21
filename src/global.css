@@ -1123,10 +1123,10 @@ h1, h2, .brand-font {
     text-align: left;
   }
   .hero-title {
-    font-size: 80px;
+    font-size: 60px;
   }
   .philo-quote{
-    font-size: 15px;
+    font-size: 12px;
   }
   .philo-content{
     height: 80px;
