@@ -487,9 +487,9 @@ h1, h2, .brand-font {
   overflow: hidden;
   transition: height 0.3s ease;
 }
-/* .philo-item.open {
-  height: 200px;        /* fixed expanded height (no layout shift) */
-/* }  */
+.philo-item.open {
+  height: 100px;        
+}
 
 .philo-header {
   display: flex;
@@ -509,7 +509,7 @@ h1, h2, .brand-font {
   max-height: 150px;
   overflow-y: auto;
   padding-right: 6px;
-  height: 42px;
+  height: 52px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
