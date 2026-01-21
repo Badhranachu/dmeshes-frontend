@@ -39,7 +39,7 @@ export default function Work() {
     </div>
 
     <span className="tag bronze-glow">01 —  Urban Residence</span>
-    <h3 className="brand-font1">Luxury Home | Urban Luxury Residence</h3>
+    <h3 className="brand-font1">Urban Luxury Residence</h3>
     <p className="location">Thrissur, Kerala</p>
   </div>
 
