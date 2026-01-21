@@ -23,7 +23,7 @@ function Sphere360() {
 export default function Philosophy() {
 
   const data = [
-  { title: "01 — Our Services", content: "Photorealistic 3D Rendering, Interior & Architectural Visualization, 360° Views, Walkthroughs, 3D Floor Plans." },
+  { title: "01 — Our Services", content: "Photorealistic 3D Rendering | Interior & Architectural Visualization | 360° Views | Walkthroughs | 3D Floor Plans." },
   { title: "02 — Our Approach", content: "Design-driven visualization with focus on spatial accuracy, lighting realism, and material detailing." },
   { title: "03 — Why Choose Us", content: "International quality, over a decade of experience, precision, realism, and reduced design revisions." },
   { title: "04 — About Us", content: "D’MESHES is an interior & architectural 3D visualization studio established in 2012, serving India, UAE, and UK." }
