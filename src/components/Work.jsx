@@ -137,9 +137,9 @@ export default function Work() {
               <div className="image-overlay"></div>
             </div>
 
-            <span className="tag bronze-glow">01 — Concrete & Glass</span>
+            <span className="tag bronze-glow">01 — Premium Hotel Arrival Experience</span>
             <h3 className="brand-font1">The Monolith</h3>
-            <p className="location">Berlin / Residential</p>
+            <p className="location">Ras Al Khaimah, UAE</p>
           </div>
 
           {/* Project 2 */}
