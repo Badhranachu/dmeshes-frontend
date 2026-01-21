@@ -62,7 +62,7 @@ export default function Philosophy() {
 
         {/* Right Content */}
         <div className="reveal">
-          <span className="philo-subtitle bronze-glow">Philosophy</span>
+          <span className="philo-subtitle bronze-glow">Overview</span>
 
           <h2 className="brand-font philo-title">
             The Art of <br />

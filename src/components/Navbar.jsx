@@ -31,7 +31,7 @@ export default function Navbar() {
 
         <div className="nav-links">
           <a href="#work" className="nav-link">Work</a>
-          <a href="#philosophy" className="nav-link">Philosophy</a>
+          <a href="#philosophy" className="nav-link">Overview</a>
           <a href="#contact" className="nav-link">Contact</a>
         </div>
       </div>
