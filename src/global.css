@@ -727,7 +727,7 @@ h1, h2, .brand-font {
   }
 
   .hero-title {
-    font-size: 46px;
+    /* font-size: 46px; */
     line-height: 1.1;
     letter-spacing: 0.05em;
   }
@@ -1127,7 +1127,7 @@ h1, h2, .brand-font {
     text-align: left;
   }
   .hero-title {
-    font-size: 80px;
+    font-size: 60px;
   }
   .philo-quote{
     font-size: 12px;
