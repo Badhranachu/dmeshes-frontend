@@ -716,6 +716,11 @@ h1, h2, .brand-font {
   .footer-bottom {
     text-align: center;
   }
+  .footer-main {
+  font-size: 1rem;
+  letter-spacing: normal;
+  text-transform: none;
+}
 }
 
 
