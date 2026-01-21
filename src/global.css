@@ -13,10 +13,7 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-/* 
-h1, h2, .brand-font {
-  font-family: 'Playfair Display', serif;
-} */
+
 
 
 body {
@@ -47,6 +44,9 @@ h1, h2, .brand-font {
   opacity: 0;
   transform: translateY(30px);
   transition: all 1s cubic-bezier(0.22, 1, 0.36, 1);
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
 .reveal.active {
   opacity: 1;
@@ -403,6 +403,7 @@ h1, h2, .brand-font {
   }
 }
 
+
 .sphere-container {
   width: 100%;
   height: 100%;
@@ -466,7 +467,7 @@ h1, h2, .brand-font {
 .philo-list {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  height: 250px;
 }
 
 .philo-item {
@@ -478,6 +479,60 @@ h1, h2, .brand-font {
   font-size: 0.75rem;
   text-transform: uppercase;
   cursor: pointer;
+  position: relative;
+  height: 42px;          /* height of closed item */
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+/* .philo-item.open {
+  height: 200px;        /* fixed expanded height (no layout shift) */
+/* }  */
+
+.philo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 42px;
+}
+
+.philo-content {
+  position: absolute;
+  left: 0;
+  top: 44px;                /* starts below title */
+  width: 100%;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--muted-color);
+  max-height: 150px;
+  overflow-y: auto;
+  padding-right: 6px;
+  height: 42px;
+}
+
+
+.arrow {
+  transition: transform 0.6s ease;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+
+.philo-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.philo-header span:first-child {
+  flex: 1;   /* pushes arrow to extreme right */
+  text-align: left;
+}
+
+.arrow {
+  margin-left: auto;
+  transition: transform 0.3s ease;
 }
 
 /* Responsive */
@@ -664,7 +719,7 @@ h1, h2, .brand-font {
   }
 
   .hero-title {
-    font-size: 46px;
+    font-size: 56px;
     line-height: 1.1;
     letter-spacing: 0.05em;
   }
@@ -763,7 +818,7 @@ h1, h2, .brand-font {
   .philo-title {
     font-size: 32px;
     line-height: 1.2;
-    text-align: center;
+    text-align: left;
   }
 
   .philo-subtitle {
@@ -776,7 +831,7 @@ h1, h2, .brand-font {
   .philo-quote {
     font-size: 14px;
     line-height: 1.6;
-    text-align: center;
+    text-align: left;
     margin: 20px 0;
   }
 
@@ -788,6 +843,7 @@ h1, h2, .brand-font {
     font-size: 13px;
     padding: 12px 0;
   }
+  
 }
 
 
@@ -867,12 +923,12 @@ h1, h2, .brand-font {
     font-size: 0.7rem;
   }
 
-  .hero-title {
-    font-size: clamp(2.5rem, 14vw, 5rem);
-  }
+  /* .hero-title {
+    font-size: clamp(3.5rem, 14vw, 5rem);
+  } */
 
   .hero-text {
-    font-size: 1rem;
+    font-size: 5rem;
   }
 
   .hero-btn {
@@ -923,7 +979,7 @@ h1, h2, .brand-font {
     padding: 0 2rem;
   }
 
-  .footer-title, .hero-title {
+  .footer-title {
     font-size: clamp(3rem, 12vw, 8rem);
   }
 }
@@ -965,10 +1021,10 @@ h1, h2, .brand-font {
     align-items: center;
   }
 
-  .hero-title {
+  /* .hero-title {
     font-size: 3.5rem !important; /* Force readable size on mobile */
-    line-height: 1.1;
-  }
+    /* line-height: 1.1;
+  } */ 
 
   .hero-bottom {
     flex-direction: column;
@@ -1062,6 +1118,19 @@ h1, h2, .brand-font {
   .location {
     text-align: left;
   }
+  .hero-title {
+    font-size: 100px;
+  }
+  .philo-quote{
+    font-size: 15px;
+  }
+  .philo-content{
+    height: 80px;
+    top: 50px;
+  }
+  .philo-list{
+    height: 300px;
+  }
 }
 
 
@@ -1085,4 +1154,29 @@ h1, h2, .brand-font {
   .footer-links a {
     justify-content: center;
   }
+  .brand-font1{
+     font-size: 13px !important;
+     font-family: 'Playfair Display', serif;
+    }
+    .location{
+      margin-bottom: 30px;
+    }
+    .philo-list1 * {
+  font-size: 11px !important;
+}
+.philo-item.open{
+  height: 100px;
+}
+
+
+    
+}
+
+
+.hero {
+  padding-bottom: 10px;   /* reduce from large value */
+}
+
+.section {
+  padding-top: 10px;     /* reduce top space of Work section */
 }

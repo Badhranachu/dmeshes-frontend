@@ -21,10 +21,10 @@ export default function Hero() {
 
 
         <div className="hero-bottom reveal">
-          <p className="hero-text">
-            Weave together the tangible and the atmospheric.
+          <p className="philo-quote" >
+            "Transform ideas into refined, meaningful spaces.
             <br />
-            Bespoke architecture for the discerning visionary.
+            Custom architecture for clients who value quality and clarity."
           </p>
 
           <a href="#work" className="hero-btn">

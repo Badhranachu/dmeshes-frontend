@@ -1,8 +1,13 @@
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import * as THREE from "three";
+import "./philosophy.css"
+import { useState } from "react";
+
 
 function Sphere360() {
+
+
   const texture = new THREE.TextureLoader().load("/images/image6.jpg");
 
   return (
@@ -13,7 +18,19 @@ function Sphere360() {
   );
 }
 
+
+
 export default function Philosophy() {
+
+  const data = [
+  { title: "01 — Our Services", content: "Photorealistic 3D Rendering, Interior & Architectural Visualization, 360° Views, Walkthroughs, 3D Floor Plans." },
+  { title: "02 — Our Approach", content: "Design-driven visualization with focus on spatial accuracy, lighting realism, and material detailing." },
+  { title: "03 — Why Choose Us", content: "International quality, over a decade of experience, precision, realism, and reduced design revisions." },
+  { title: "04 — About Us", content: "D’MESHES is an interior & architectural 3D visualization studio established in 2012, serving India, UAE, and UK." }
+];
+
+    const [openIndex, setOpenIndex] = useState(null);
+
   return (
     <section id="philosophy" className="section philosophy">
       <div className="container philosophy-grid">
@@ -56,11 +73,24 @@ export default function Philosophy() {
             "Architecture is the learned game, correct and magnificent, of forms assembled in the light."
           </p>
 
-          <div className="philo-list">
-            <div className="philo-item"><span>01 — Form & Void</span></div>
-            <div className="philo-item"><span>02 — Material Truth</span></div>
-            <div className="philo-item"><span>03 — Human Scale</span></div>
-          </div>
+          <div className="philo-list1">
+  {data.map((item, index) => (
+    <div className={`philo-item ${openIndex === index ? "open" : ""}`} key={index}>
+      <div
+        className="philo-header"
+        onClick={() => setOpenIndex(openIndex === index ? null : index)}
+      >
+        <span>{item.title}</span> 
+        <span className={`arrow ${openIndex === index ? "open" : ""}`}>▽</span>
+      </div>
+
+      <div className="philo-content">
+        {openIndex === index && item.content}
+      </div>
+    </div>
+  ))}
+</div>
+
         </div>
 
       </div>
