@@ -4,20 +4,16 @@ export default function Navbar() {
   const [hidden, setHidden] = useState(false);
 
   useEffect(() => {
-    let lastScrollY = window.scrollY;
+  const onScroll = () => {
+    if (window.scrollY > 10) {
+      setHidden(true);   // hide forever after first scroll
+    }
+  };
 
-    const onScroll = () => {
-      if (window.scrollY > lastScrollY) {
-        setHidden(true);   // scrolling down → hide
-      } else {
-        setHidden(false);  // scrolling up → show
-      }
-      lastScrollY = window.scrollY;
-    };
+  window.addEventListener("scroll", onScroll);
+  return () => window.removeEventListener("scroll", onScroll);
+}, []);
 
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   return (
     <nav className={`fixed-nav ${hidden ? "nav-hide" : ""}`}>

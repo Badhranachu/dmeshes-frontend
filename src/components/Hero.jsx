@@ -17,7 +17,6 @@ export default function Hero() {
   D'MESHES<span className="bronze-glow italic">.</span>
 </h1>
 
-  
 
 
         <div className="hero-bottom reveal">

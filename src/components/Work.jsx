@@ -38,8 +38,8 @@ export default function Work() {
       <div className="image-overlay"></div>
     </div>
 
-    <span className="tag bronze-glow">02 — Urban luxury residence</span>
-    <h3 className="brand-font1">A refined modern home defined by bold geometry, natural textures, and seamless indoor–outdoor connection</h3>
+    <span className="tag bronze-glow">01 —  Urban Residence</span>
+    <h3 className="brand-font1">Luxury Home | 3D Visualization</h3>
     <p className="location">Thrissur, Kerala</p>
   </div>
 
@@ -66,8 +66,9 @@ export default function Work() {
       <div className="image-overlay"></div>
     </div>
 
-    <span className="tag bronze-glow">02 — Palace-inspired luxury residence</span>
-    <h3 className="brand-font1">Grand residential interior inspired by palace architecture, featuring classical columns, ornate detailing, and symmetrical planning</h3>
+    <span className="tag bronze-glow">02 — 02 — Luxury Residence</span>
+    <h3 className="brand-font1">Palace-Inspired Interior
+</h3>
     <p className="location">Calicut, Kerala</p>
   </div>
 
@@ -92,9 +93,8 @@ export default function Work() {
       <div className="image-overlay"></div>
     </div>
 
-    <span className="tag bronze-glow">02 — Nature-integrated residence</span>
-    <h3 className="brand-font1">A serene, nature-friendly home designed to coexist with its landscape
-</h3>
+    <span className="tag bronze-glow">03 — Residential Architecture</span>
+    <h3 className="brand-font1">Nature-Integrated Home</h3>
     <p className="location">Kottayam, Kerala</p>
   </div>
 
@@ -120,9 +120,9 @@ export default function Work() {
       <div className="image-overlay"></div>
     </div>
 
-    <span className="tag bronze-glow">02 — Modern Arabic restaurant interior</span>
-    <h3 className="brand-font1"> Designed with a focus on ambient lighting, cultural motifs, and a refined dining atmosphere.</h3>
-    <p className="location">Dubai</p>
+    <span className="tag bronze-glow">04 — Restaurant Interior</span>
+    <h3 className="brand-font1">Modern Arabic Dining Space</h3>
+    <p className="location">DUBAI / UAE</p>
   </div>
         <div className="grid-2 work-grid">
           
@@ -137,9 +137,9 @@ export default function Work() {
               <div className="image-overlay"></div>
             </div>
 
-            <span className="tag bronze-glow">01 — Premium Hotel Arrival Experience</span>
-            <h3 className="brand-font1">The Monolith</h3>
-            <p className="location">Ras Al Khaimah, UAE</p>
+            <span className="tag bronze-glow">05 — Arrival Experience</span>
+            <h3 className="brand-font1">Premium Hotel Entrance</h3>
+            <p className="location">RAS AL KHAIMAH / UAE</p>
           </div>
 
           {/* Project 2 */}
@@ -152,9 +152,9 @@ export default function Work() {
               <div className="image-overlay"></div>
             </div>
 
-            <span className="tag bronze-glow">02 — Natural Elements</span>
-            <h3 className="brand-font1">Void House</h3>
-            <p className="location">Kyoto / Villa</p>
+            <span className="tag bronze-glow">06 — Urban Residence</span>
+            <h3 className="brand-font1">Residential Concept</h3>
+            <p className="location">COCHIN / KERALA</p>
           </div>
 
         </div>
@@ -171,9 +171,9 @@ export default function Work() {
               <div className="image-overlay"></div>
             </div>
 
-            <span className="tag bronze-glow">01 — Concrete & Glass</span>
-            <h3 className="brand-font1">The Monolith</h3>
-            <p className="location">Berlin / Residential</p>
+            <span className="tag bronze-glow">07 — Modular Kitchen</span>
+            <h3 className="brand-font1">Kitchen Interior Concept</h3>
+            <p className="location">DUBAI / UAE</p>
           </div>
 
           {/* Project 4 */}
@@ -186,9 +186,9 @@ export default function Work() {
               <div className="image-overlay"></div>
             </div>
 
-            <span className="tag bronze-glow">02 — Natural Elements</span>
-            <h3 className="brand-font1">Void House</h3>
-            <p className="location">Kyoto / Villa</p>
+            <span className="tag bronze-glow">08 — Automotive Studio</span>
+            <h3 className="brand-font1">Premium Showroom Interior</h3>
+            <p className="location">COCHIN / KERALA</p>
           </div>
 
         </div>
@@ -205,9 +205,9 @@ export default function Work() {
               <div className="image-overlay"></div>
             </div>
 
-            <span className="tag bronze-glow">01 — Concrete & Glass</span>
-            <h3 className="brand-font1">The Monolith</h3>
-            <p className="location">Berlin / Residential</p>
+            <span className="tag bronze-glow">05 — Washroom Interior</span>
+            <h3 className="brand-font1">Contemporary Bathroom Concept</h3>
+            <p className="location">DUBAI / UAE</p>
           </div>
 
           {/* Project 6 */}
@@ -221,9 +221,9 @@ export default function Work() {
               <div className="image-overlay"></div>
             </div>
 
-            <span className="tag bronze-glow">02 — Natural Elements</span>
-            <h3 className="brand-font1">Void House</h3>
-            <p className="location">Kyoto / Villa</p>
+            <span className="tag bronze-glow">06 — Hotel Lobby</span>
+            <h3 className="brand-font1">Luxury Lobby & Reception</h3>
+            <p className="location">DUBAI / UAE</p>
           </div>
 
         </div>
@@ -241,9 +241,9 @@ export default function Work() {
               <div className="image-overlay"></div>
             </div>
 
-            <span className="tag bronze-glow">01 — Concrete & Glass</span>
-            <h3 className="brand-font1">The Monolith</h3>
-            <p className="location">Berlin / Residential</p>
+            <span className="tag bronze-glow">07 — Corporate Reception</span>
+            <h3 className="brand-font1">Office Interior Concept</h3>
+            <p className="location">DUBAI / UAE</p>
           </div>
 
           {/* Project 8 */}
@@ -256,9 +256,9 @@ export default function Work() {
               <div className="image-overlay"></div>
             </div>
 
-            <span className="tag bronze-glow">02 — Natural Elements</span>
-            <h3 className="brand-font1">Void House</h3>
-            <p className="location">Kyoto / Villa</p>
+            <span className="tag bronze-glow">08 — Waiting Lounge</span>
+            <h3 className="brand-font1">Luxury Hotel Lounge</h3>
+            <p className="location">DUBAI / UAE</p>
           </div>
 
         </div>
