@@ -22,9 +22,9 @@ export default function Hero() {
 
         <div className="hero-bottom reveal">
           <p className="philo-quote" >
-            "Transform ideas into refined, meaningful spaces.
+            "Transform ideas into meaningful spaces for clients
             <br />
-            Custom architecture for clients who value quality and clarity."
+            who value quality and clarity."
           </p>
 
           <a href="#work" className="hero-btn">
