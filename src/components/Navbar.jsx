@@ -5,14 +5,17 @@ export default function Navbar() {
 
   useEffect(() => {
   const onScroll = () => {
-    if (window.scrollY > 10) {
-      setHidden(true);   // hide forever after first scroll
+    if (window.scrollY === 0) {
+      setHidden(false); // show only when at absolute top
+    } else {
+      setHidden(true);  // hide everywhere else
     }
   };
 
   window.addEventListener("scroll", onScroll);
   return () => window.removeEventListener("scroll", onScroll);
 }, []);
+
 
 
   return (
